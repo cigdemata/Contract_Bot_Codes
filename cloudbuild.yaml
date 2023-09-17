@@ -1,0 +1,12 @@
+steps:
+  - name: 'gcr.io/cloud-builders/gcloud'
+    args:
+      - 'functions'
+      - 'deploy'
+      - 'webhook'  # Replace with your Cloud Function name
+      - '--runtime'
+      - 'python39'
+      - '--trigger-http'
+      - '--entry-point'
+      - 'webhook'
+      - '--allow-unauthenticated'
