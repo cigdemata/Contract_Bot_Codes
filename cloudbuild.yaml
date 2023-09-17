@@ -8,5 +8,5 @@ steps:
       - 'python39'
       - '--trigger-http'
       - '--entry-point'
-      - 'webhook'
+      - 'ContractBotWebhookDeployFunction'
       - '--allow-unauthenticated'
