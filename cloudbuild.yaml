@@ -3,7 +3,7 @@ steps:
     args:
       - 'functions'
       - 'deploy'
-      - 'webhook'  # Replace with your Cloud Function name
+      - 'ContractBotWebhookDeployFunction'  # Replace with your Cloud Function name
       - '--runtime'
       - 'python39'
       - '--trigger-http'
